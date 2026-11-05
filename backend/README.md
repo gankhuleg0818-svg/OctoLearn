@@ -11,7 +11,7 @@ Node.js + TypeScript + Express 5 + PostgreSQL. Хоёр хэсэгтэй:
 cd backend
 npm install
 cp .env.example .env     # шаардлагатай бол засна
-npm run dev              # http://localhost:4000
+npm run dev              # http://localhost:4000 
 ```
 
 Сервер асахдаа migration-ийг ажиллуулна. Demo контентыг **зөвхөн DB хоосон үед** оруулна, иймээс админ панелд хийсэн засвар restart хийхэд алга болохгүй.
