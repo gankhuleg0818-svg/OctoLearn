@@ -5,6 +5,8 @@ OctoLearn нь тоглоомын элементүүдийг ашиглан су
 Платформ нь богино хэмжээний видео хичээл, шаталсан сургалтын зам, тогтмол мэдлэг шалгах тест болон XP, Streak зэрэг gamification системийг нэгтгэсэн.
 
 ## Live Demo
+Анхааруулга: Веб аппликейшн Render-ийн үнэгүй хостинг ашигладаг тул 15 минут идэвхгүй байвал сервер автоматаар түр унтардаг. Иймээс дараагийн удаа нэвтрэхэд сервер дахин асах хүртэл эхний ачаалалт болон үйлдэл бага зэрэг удааширч болзошгүй. Сервер асаж дууссаны дараа хэвийн ажиллана.
+
 - **Backend / Admin Web:** [OctoLearn админ панел](https://octolearn-api.onrender.com/)
 - **App:** <a href="https://drive.google.com/drive/folders/1OVW2IF0vMejKr6BDimeotgX80PQ8uF_E?usp=sharing" target="_blank" rel="noopener noreferrer">OctoLearn APK</a>
 
