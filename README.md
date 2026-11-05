@@ -6,7 +6,7 @@ OctoLearn нь тоглоомын элементүүдийг ашиглан су
 
 ## Live Demo
 - **Backend / Admin Web:** [OctoLearn админ панел](https://octolearn-api.onrender.com/)
-- **Backend / Admin Web:** [OctoLearn APK](https://drive.google.com/drive/folders/1OVW2IF0vMejKr6BDimeotgX80PQ8uF_E?usp=sharing)
+- **App:** <a href="[https://.....](https://drive.google.com/drive/folders/1OVW2IF0vMejKr6BDimeotgX80PQ8uF_E?usp=sharing)" target="_blank" rel="noopener noreferrer">OctoLearn APK</a>
 
 ## Технологи
 
