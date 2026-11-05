@@ -70,7 +70,7 @@ export function PathNode({ kind, state, color, accessibilityLabel, onPress }: Pr
     state === 'locked'
       ? { face: t.locked, base: t.lockedDark, icon: t.textSecondary }
       : state === 'completed'
-        ? { face: t.gold, base: t.goldDark, icon: '#fff' }
+        ? { face: t.green, base: t.greenDark, icon: '#fff' }
         : { face: color.face, base: color.base, icon: '#fff' };
 
   const icon: keyof typeof Ionicons.glyphMap =

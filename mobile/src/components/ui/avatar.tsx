@@ -7,7 +7,7 @@ import { useTheme } from '@/hooks/use-theme';
 import { Text } from './text';
 
 // Deterministic color per name so each learner keeps the same avatar color.
-const AVATAR_COLORS = ['#7C5CFF', '#22C55E', '#FF7A1A', '#0EA5E9', '#EC4899', '#F59E0B'];
+const AVATAR_COLORS = ['#7C5CFF', '#FF7A1A', '#FF7A1A', '#0EA5E9', '#EC4899', '#F59E0B'];
 
 function colorFor(name: string) {
   let hash = 0;
@@ -25,7 +25,7 @@ export function Avatar({ name, url, size = 44 }: { name: string; url?: string | 
       {url ? (
         <Image source={{ uri: url }} style={StyleSheet.absoluteFill} contentFit="cover" />
       ) : (
-        <Text style={{ fontFamily: Fonts.black, fontSize: size * 0.42, color: '#fff' }}>{initial}</Text>
+        <Text style={{ fontFamily: Fonts.black, fontSize: size * 0.42, lineHeight: size * 0.5, color: '#fff' }}>{initial}</Text>
       )}
     </View>
   );

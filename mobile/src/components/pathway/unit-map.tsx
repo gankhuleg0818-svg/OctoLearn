@@ -54,15 +54,15 @@ function buildNodes(unit: Unit): MapNode[] {
     ),
     ...(unit.quiz
       ? [
-          {
-            id: unit.quiz.id,
-            kind: 'quiz',
-            state: unit.quiz.state,
-            title: unit.quiz.title,
-            label: unit.quiz.bestScore != null ? `Шалгалт · ${unit.quiz.bestScore}%` : 'Шалгалт',
-            accessibilityLabel: `${unit.quiz.title}, ${stateText(unit.quiz.state, 'тэнцсэн', 'нээлттэй')}`,
-          } satisfies MapNode,
-        ]
+        {
+          id: unit.quiz.id,
+          kind: 'quiz',
+          state: unit.quiz.state,
+          title: unit.quiz.title,
+          label: unit.quiz.bestScore != null ? `Шалгалт · ${unit.quiz.bestScore}%` : 'Шалгалт',
+          accessibilityLabel: `${unit.quiz.title}, ${stateText(unit.quiz.state, 'тэнцсэн', 'нээлттэй')}`,
+        } satisfies MapNode,
+      ]
       : []),
   ];
 }

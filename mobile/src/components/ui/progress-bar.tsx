@@ -46,11 +46,11 @@ const styles = StyleSheet.create({
   fill: { height: '100%', borderRadius: Radius.full, minWidth: 0 },
   shine: {
     position: 'absolute',
-    top: 3,
+    top: 5,
     left: 8,
     right: 8,
     height: 3,
     borderRadius: 2,
-    backgroundColor: 'rgba(255,255,255,0.35)',
+    backgroundColor: 'rgba(255,255,255,0.4)',
   },
 });

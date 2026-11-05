@@ -227,7 +227,7 @@ const styles = StyleSheet.create({
     borderRadius: Radius.lg,
     padding: Spacing.md,
   },
-  tileIcon: { fontSize: 26 },
+  tileIcon: { fontSize: 26, lineHeight: 36 },
   card: { borderWidth: 2, borderRadius: Radius.lg, padding: Spacing.lg },
   actions: { gap: Spacing.md, marginTop: Spacing.md },
 });

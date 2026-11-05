@@ -16,8 +16,8 @@ export interface LandTheme {
 }
 
 export const LAND_THEMES: readonly LandTheme[] = [
-  { name: 'meadow', light: ['#E6F8DD', '#CDEFBE'], dark: ['#15261A', '#1B3421'], heroes: ['sheep', 'tree'], accents: ['bush', 'flower', 'mushroom', 'pine'] },
-  { name: 'village', light: ['#FFF3D3', '#FFE3A8'], dark: ['#2A2414', '#352A17'], heroes: ['house', 'windmill'], accents: ['sunflower', 'bush', 'flower', 'pine'] },
+  { name: 'meadow', light: ['#E6F8DD', '#8ace6c'], dark: ['#46995f', '#1B3421'], heroes: ['sheep', 'tree'], accents: ['cloud', 'flower', 'mushroom', 'flower'] },
+  { name: 'village', light: ['#FFF3D3', '#e2c077'], dark: ['#7a6a3e', '#352A17'], heroes: ['house', 'windmill'], accents: ['sunflower', 'bush', 'flower', 'pine'] },
   { name: 'coast', light: ['#DDF2FF', '#BFE4FF'], dark: ['#11232F', '#14293A'], heroes: ['boat', 'gulls'], accents: ['palm', 'rock', 'palm', 'bush'] },
   { name: 'kingdom', light: ['#F0E8FF', '#DFD2FF'], dark: ['#211A33', '#2A2142'], heroes: ['castle', 'dragon'], accents: ['crystal', 'sparkle', 'pine', 'sparkle'] },
 ];

@@ -24,7 +24,7 @@ export function RewardOverlay({ emoji, title, xp, subtitle, actionLabel = 'Үр�
   const t = useTheme();
 
   useEffect(() => {
-    if (Platform.OS !== 'web') Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success).catch(() => {});
+    if (Platform.OS !== 'web') Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success).catch(() => { });
   }, []);
 
   return (
@@ -46,7 +46,7 @@ export function RewardOverlay({ emoji, title, xp, subtitle, actionLabel = 'Үр�
           </Text>
         </Animated.View>
         {xp > 0 && (
-          <Animated.View entering={ZoomIn.delay(400).springify()} style={[styles.xpPill, { backgroundColor: t.gold }]}>
+          <Animated.View entering={ZoomIn.delay(400).springify()} style={[styles.xpPill, { backgroundColor: t.green }]}>
             <Text style={styles.xpText}>+{xp} XP</Text>
           </Animated.View>
         )}
@@ -72,6 +72,6 @@ const styles = StyleSheet.create({
   spark: { fontSize: 26 },
   emoji: { fontSize: 96, lineHeight: 112 },
   xpPill: { paddingHorizontal: Spacing.xl, paddingVertical: Spacing.sm, borderRadius: Radius.full },
-  xpText: { fontFamily: Fonts.black, fontSize: 28, color: '#fff' },
+  xpText: { fontFamily: Fonts.black, fontSize: 28, lineHeight: 34, color: '#fff' },
   footer: { width: '100%', maxWidth: MaxContentWidth, alignSelf: 'center', paddingBottom: Spacing.lg },
 });

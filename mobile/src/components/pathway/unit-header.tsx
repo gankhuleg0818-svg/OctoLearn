@@ -8,7 +8,7 @@ import { useTheme } from '@/hooks/use-theme';
 
 export const UNIT_COLORS = [
   { face: '#FF7A1A', base: '#E05A00' },
-  { face: '#22C55E', base: '#16A34A' },
+  { face: '#FF7A1A', base: '#E05A00' },
   { face: '#8B5CF6', base: '#6D3FD9' },
   { face: '#0EA5E9', base: '#0284C7' },
 ] as const;
