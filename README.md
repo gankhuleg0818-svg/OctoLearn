@@ -1,6 +1,14 @@
 # OctoLearn
 
-Video course платформын prototype: Тоглоом маягийн сургалтын зам, богино видео хичээл, 5 хичээл тутамд шалгалт, XP/streak/статистик.
+OctoLearn нь тоглоомын элементүүдийг ашиглан суралцах үйл явцыг илүү сонирхолтой, үр дүнтэй болгох зорилготой видео сургалтын платформын prototype юм.
+
+Платформ нь богино хэмжээний видео хичээл, шаталсан сургалтын зам, тогтмол мэдлэг шалгах тест болон XP, Streak зэрэг gamification системийг нэгтгэсэн.
+
+## Live Demo
+- **Backend / Admin Web:** [OctoLearn админ панел](https://octolearn-api.onrender.com/)
+- **Backend / Admin Web:** [OctoLearn APK](https://drive.google.com/drive/folders/1OVW2IF0vMejKr6BDimeotgX80PQ8uF_E?usp=sharing)
+
+## Технологи
 
 | Хэсэг | Технологи | Дэлгэрэнгүй |
 |---|---|---|
@@ -9,16 +17,20 @@ Video course платформын prototype: Тоглоом маягийн су�
 
 Backend нь **app REST API** болон **админ веб панел** (хэрэглэгч хянах, XP чансаа, бүлэг/хичээл/шалгалт удирдах) хоёрыг агуулна.
 
-## Ажилуулах заавар
+## Ажиллуулах
 
 ```bash
 cd backend && npm install && npm run dev
 
-cd mobile && npm install && npm start      # Expo Go, эсвэл `npm run web`
+cd mobile && npm install && npm start      # npx expo start, эсвэл `npm run web`
 ```
 
 ## Хийсэн зүйлс
 
 - **P0:** pathway (zigzag, 3 төлөв, шалгалтын цэг, түгжээний мэдэгдэл), прогресс бар + XP, видео хичээл (тоглуулах/гүйлгэх, ≥ 90% үзсэний дараа "Дуусгах", +XP feedback), MCQ шалгалт (ногоон/улаан, үр дүн, дахин өгөх, ≥ 60% тэнцэнэ), профайлын статистик, доод навигаци, ахиц хадгалалт
 - **P1:** идэвхтэй хичээл рүү автоматаар гүйлгэх, streak, бүтэн дэлгэцийн видео, түвшин, ахиц reset
-- **P2:** Node.js API + PostgreSQL, нэвтрэлт (имэйл + нууц үг, JWT), streak/түвшний логик, dark mode, вэб хувилбар (Expo Web), backend unit/integration тест (39), офлайн үед кэшээр харуулах, Zustand state management, XP чансаа, 7 хоногийн идэвхийн график, админ панел
+- **P2:** Node.js API + PostgreSQL, нэвтрэлт (имэйл + нууц үг, JWT), streak/түвшний логик, dark mode, вэб хувилбар (Expo Web), backend unit/integration тест, офлайн үед кэшээр харуулах, Zustand state management, XP чансаа, 7 хоногийн идэвхийн график, админ панел
+
+## Хөгжүүлэлтийн явц
+
+OctoLearn хөгжүүлэлтийн явцад Claude AI-г голлох AI туслах хэрэгсэл болгон өргөн ашигласан бөгөөд төслийг бүхэлд нь AI-д даатган бүтээсэн бус, AI-ийн тусламж болон хүний оролцоо, шийдвэр гаргалт, хяналт дор хамтран хөгжүүлсэн.
